@@ -1,8 +1,8 @@
 # cr1.plot4 function
 #
-# When write_png="yes", plot into file, Otherwise - plot on default device
+# When write_png="yes" plot to png file, otherwise - plot on default device
 #
-# if variable "cr1.data" absent in your env, when invoke "cr1.InitEnv"
+# if variable "cr1.data" absent in your env, when it invokes "cr1.InitEnv"
 cr1.plot4 <- function(write_png="yes", filename="plot4.png"){
   if(!exists("cr1.data")) cr1.initEnv()
   
