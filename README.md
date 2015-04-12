@@ -1,3 +1,17 @@
+## Introduciton from MetzIlya
+You will find four R files plot[1-4].R and result files plot[1-4].png
+
+Each \*.R file contain respective plot function <b>cr1.plot[1-4]</b> and <b>cr1.initEnv</b> function. 
+
+<b>cr1.plot[1-4]</b> functions by default:
+- check cr1.data data frame, if absent invoke cr1.initEnv() function
+- plot respective graph into plot[1-4].png file
+
+<b>cr1.initEnv</b> function by default:
+- open "./household_power_consumption.txt" file
+- set eng locale
+- create data frame cr1.data
+
 ## Introduction
 
 This assignment uses data from
